@@ -1,6 +1,10 @@
 #title of the code
 print('\nCOMPUTING THE INCOME TAX FOR THE GIVEN INCOME.\n')
 
+print('\nTAXABLE INCOME:\nFirst $10,000\nNext $10,000\nThe remaining')
+print('\nRate (in %):\n    0\n    10\n    20\n')
+
+
 #your designated income
 income = int(input('YOUR INCOME : '))
 
@@ -23,3 +27,6 @@ else:
 
      income > 20_000
      tax_digit+= (income- 20_000)* 0.2
+
+#it displays the total income
+print('\nTOTAL TAX THAT IS NEED TO PAY IS','$',int(tax_digit), '\n')
