@@ -15,3 +15,11 @@ if income <= 10_000:
 elif 10_000 < income <= 20_000:
     first_income= income - 10_000
     tax_digit = first_income * 0.1
+
+# if the given income is more than 20000 
+else:
+     tax_digit = 0
+     tax_digit= 10000 * 0.1
+
+     income > 20_000
+     tax_digit+= (income- 20_000)* 0.2
